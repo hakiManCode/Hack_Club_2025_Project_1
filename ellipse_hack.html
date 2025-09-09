@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ellipse Calculator</title>
+    <link rel="stylesheet" href="calculator_hack.css">
+  </head>
+  <body>
+    <h1>ELLIPSE CALCULATOR</h1>
+    <p>Enter the following inputs: <br><br></p>
+
+    <label for="aaxis">Semi-Major Axis (a): </label><br>
+    <input type="number" id="aaxis" name="SemiMajorAxis" step="any"><br><br>
+    <label for="baxis">Semi-Minor Axis (b): </label><br>
+    <input type="number" id="baxis" name="SemiMinorAxis" step="any"><br><br>
+
+    <button type="button" onclick="areaEllipse()">Calculate</button><br><br>
+    
+    <script src="ellispe_hack.js"></script>
+
+    <p id="ellipsearea"></p>
+</html>

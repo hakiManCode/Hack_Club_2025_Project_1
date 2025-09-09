@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle Area Calculator</title>
+    <link rel="stylesheet" href="calculator_hack.css">
+  </head>
+  <body>
+    <h1>CIRCLE AREA CALCULATOR</h1>
+    <p>Enter the radius of the circle below:</p>
+
+    <label for="radius">Radius: </label><br>
+    <input type="number" id="radius" name="Radius" step="any"><br><br>
+    <label for="decimalplaces">Decimal Places (2-8 Places): </label><br>
+    <input type="number" id="decimalplaces" name="DecimalPlaces" min="2" max="8" step="1" value="2"><br><br>
+
+    <button type="button" onclick="calculateCircleArea()">Calculate</button><br><br>
+
+    <script src="circle_hack.js"></script>
+
+    <p id="circlearea"></p>
+</html>

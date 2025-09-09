@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regular Polygon Calculator</title>
+    <link rel="stylesheet" href="calculator_hack.css">
+  </head>
+  <body>
+    <h1>REGULAR POLYGON CALCULATOR</h1>
+    <p>Enter the following inputs: <br><br></p>
+
+    <label for="numSides">Number of Sides: </label><br>
+    <input type="number" id="numSides" name="NumSides" step="any"><br><br>
+    <label for="sideLength">Length of Each Side: </label><br>
+    <input type="number" id="sideLength" name="SideLength" step="any"><br><br>
+
+    <script src="regpoly.js"></script>
+
+    <button type="button" onclick="areaRegPoly()">Calculate</button><br><br>
+    <p id="regpolyarea"></p>
+</html>

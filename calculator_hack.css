@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  background: #f9f9f9;
+}
+
+.container {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 12px;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+input, button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+/* 🔲 The square shape */
+.square {
+  width: 150px;
+  height: 150px;
+  background-color: #4CAF50;
+  margin: 20px auto;
+  border: 3px solid #333;
+  border-radius: 8px; /* remove this if you want sharp corners */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSS Triangle Calculator</title>
+    <link rel="stylesheet" href="../calculator_hack.css">
+  </head>
+  <body>
+    <h1>SSS Triangle Calculator</h1>
+    <label for="sidea">Side A:</label>
+    <input type="number" id="sidea" name="sideA" step="any"><br><br>
+    <label for="sideb">Side B:</label>
+    <input type="number" id="sideb" name="sideB" step="any"><br><br>
+    <label for="sidec">Side C:</label>
+    <input type="number" id="sidec" name="sideC" step="any"><br><br>
+
+    <button onclick="sssTriArea()">Calculate</button>
+
+    <script src="herons_triangle_hack.js"></script>
+
+    <p id="ssstriarea"></p>
+  </body>
+</html>
